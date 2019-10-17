@@ -1,0 +1,195 @@
+/*font-family: 'Caviar Dreams';*/
+
+body { 
+
+    
+    /*Imagen de Fondo*/
+    background: url("../img/contenidos/fondocontacsites.jpg") no-repeat top center #fff;
+    background-size: cover;    
+
+}
+
+body main {
+    width: 1100px;
+    height: 500px; 
+    display: block; 
+    position: relative;
+    margin: 100px auto 0 auto; 
+    float: none; 
+    
+}
+body main figure {
+    width: 400px;
+    height: 200px;
+    display: block;
+    position: absolute;
+    margin: 0;
+    float: none;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+body main figure img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 0 35px 0;
+    float: none;
+}
+body main figure p {
+    font-family: 'Caviar Dreams', sans-serif;
+    font-size: 1.00em;
+    line-height: 1.45em;
+    font-weight: 150;
+    text-align: justify;
+    color: #1D1D1B;
+    padding: 0px 0 0 588px;
+    width: 400px;
+}
+
+body main nav {
+    width: 275px;
+    height: 200px;
+    display: block;
+    position: absolute;
+    margin: 0 auto 0;
+    float: none;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
+body main nav div#menu-redes {
+    width: 175px;
+    height: 35px;
+    display: block;
+    margin: 0 0 10px 0;
+    float: right;
+    position: relative;
+}
+body main nav div#menu-redes a {
+    width: 35px;
+    height: 15px;
+    display: block;
+    margin: 0 11px 0 0;
+    float: left;
+    position: relative;
+    
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    transition: all 0.3s ease-in;
+}
+body main nav div#menu-redes a i {
+    font-size: 1.05em;
+    color: #fff;
+    transition: all 0.3s ease-in;
+}
+body main nav div#menu-redes a:hover {
+    transition: all 0.15s ease-out;
+}
+body main nav div#menu-redes a:hover i {
+    color: #901b83;
+    transition: all 0.15s ease-out;
+}
+
+body main nav div#menu-redes a:nth-child(1) { background: #901b83; }
+body main nav div#menu-redes a:nth-child(2) { background: #901b83; }
+body main nav div#menu-redes a:nth-child(3) { background: #901b83; }
+body main nav div#menu-redes a:nth-child(4) { background: #901b83; margin: 0; }
+
+body main nav div#menu-redes a:nth-child(1):hover { background: #ececec; }
+body main nav div#menu-redes a:nth-child(2):hover { background: #ececec; }
+body main nav div#menu-redes a:nth-child(3):hover { background: #ececec; }
+body main nav div#menu-redes a:nth-child(4):hover { background: #ececec; }
+
+
+
+body main nav div#link-wp {
+    width: 100%;
+    height: 35px;
+    display: block;
+    margin: 0 0 10px 0;
+    float: right;
+    position: relative;
+}
+body main nav div#link-wp a {
+    width: 100%;
+    height: 35px;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    
+    border-radius: 25px;
+    text-align: center;
+    padding: 0;
+    background: #901b83;
+    transition: all 0.3s ease-in;
+}
+body main nav div#link-wp a i {
+    width: 35px;
+    height: 18px;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    
+    font-size: 1.15em;
+    padding: 8.5px 5px 0 10px;
+    color: #fff;
+    transition: all 0.3s ease-in;
+}
+body main nav div#link-wp a span {
+    width: 205px;
+    height: 18px;
+    display: block;
+    margin: 8.5px 5px 8.5px 0;
+    float: left;
+    position: relative;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em;
+    letter-spacing: 0.035em;
+    text-align: right;
+    color: #fff;
+    transition: all 0.3s ease-in;
+}
+body main nav div#link-wp a:hover { background: #f0f0f0; transition: all 0.15s ease-out; }
+body main nav div#link-wp a:hover i { color: #901b83; transition: all 0.15s ease-out; }
+body main nav div#link-wp a:hover span { color: #901b83; transition: all 0.15s ease-out; }
+
+
+
+body main nav div#botones-contacto {
+    width: 100%;
+    height: 70px;
+    display: block;
+    margin: 10px 0 0 0;
+    float: right;
+    position: relative;
+}
+body main nav div#botones-contacto a {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin:  margin: 0 auto 2px auto;
+    float: none;
+    position: relative;
+    font-family: 'Caviar Dreams', sans-serif;
+    font-size: 0.9em;
+    letter-spacing: 0.035em;
+    text-decoration: none;
+    text-align: right;
+    color: #901b83;
+    transition: all 0.3s ease-in;
+}
+body main nav div#botones-contacto a i {
+    padding: 0 10px 0 0;
+}
+body main nav div#botones-contacto a:hover {
+    color: #999;
+}
+body main nav div#botones-contacto a:hover i {
+    color: #999;
+}
